@@ -1,0 +1,33 @@
+/* include fonts */
+@import url("fonts.css");
+/* css variable */
+@import url("partials/variable.css");
+/* global css */
+@import url("partials/global.css");
+
+body {
+  font: normal 15px/30px cursive;
+  background-color: #eaeaea;
+}
+
+/* navbar */
+.navbar {
+  background-color: #eaeaea;
+}
+nav .nav-link {
+  margin-right: 13px;
+  font-size: 16px;
+}
+
+nav .nav-item .active {
+  font-weight: 500;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-color: #f3b5c4;
+  height: 600px;
+}
+.jumbotron h1 {
+  font-weight: 600;
+}
