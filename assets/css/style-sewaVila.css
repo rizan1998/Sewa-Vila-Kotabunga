@@ -7,12 +7,18 @@
 
 body {
   font: normal 15px/30px cursive;
-  background-color: #eaeaea;
+  /* background-color: #eaeaea; */
+  background-color: #f6f7fb;
 }
 
 /* navbar */
+nav {
+  border-bottom: 1px solid #eaeaea;
+}
+
 .navbar {
-  background-color: #eaeaea;
+  /* background-color: #eaeaea; */
+  background-color: #f6f7fb;
 }
 nav .nav-link {
   margin-right: 13px;
@@ -25,9 +31,39 @@ nav .nav-item .active {
 
 /* jumbotron */
 .jumbotron {
-  background-color: #f3b5c4;
-  height: 600px;
+  /* background-color: #f3b5c4; */
+  background-color: #f6f7fb;
+  height: auto;
+  overflow: auto;
 }
 .jumbotron h1 {
   font-weight: 600;
+}
+
+/* about */
+.about-section .title-about {
+  background-color: #f3b5c4;
+  padding: 8px 13px;
+  border-radius: 5px;
+}
+
+/* gallery */
+.gallery-section .title-gallery {
+  background-color: #f3b5c4;
+  padding: 8px 13px;
+  border-radius: 5px;
+}
+
+/* section fasilitas */
+
+.fasilitas-section .fa-wifi {
+  font-size: 30px;
+}
+
+.fasilitas-section .fa-door-open,
+.fasilitas-section .fa-toilet,
+.fasilitas-section .fa-fire,
+.fasilitas-section .fa-box,
+.fasilitas-section .fa-tv {
+  font-size: 30px;
 }

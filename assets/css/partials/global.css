@@ -19,3 +19,11 @@
   color: darkslateblue;
   border-radius: 8px;
 }
+
+.btn-btn-secondary {
+  padding: 8px 13px;
+  background-color: #f3b5c4;
+  border: none;
+  color: darkslateblue;
+  border-radius: 8px;
+}
