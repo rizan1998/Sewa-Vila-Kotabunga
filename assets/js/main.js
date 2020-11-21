@@ -17,7 +17,7 @@ $('.page-scroll').on('click', function (e) {
 });
 
 // owl carousel experience section
-$(" .experience .container .owl-carousel").owlCarousel({
+$(" .gallery-section .container .owl-carousel").owlCarousel({
     loop: true,
     lazyLoad: true,
     responsive: {
@@ -25,15 +25,15 @@ $(" .experience .container .owl-carousel").owlCarousel({
             items: 1
         },
         600: {
-            items: 1
+            items: 2
         },
         1000: {
-            items: 1
+            items: 4
         }
     }
 });
 
-var owl = $(' .experience .container .owl-carousel');
+var owl = $(' .gallery-section .container .owl-carousel');
 owl.owlCarousel();
 // Go to the next item
 $('.btn-next').click(function () {

@@ -8,12 +8,17 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- font awesome -->
     <link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/vendor/owl/owl.carousel.css">
+    <link rel="stylesheet" href="assets/vendor/owl/owl.theme.default.css">
+    <!-- aos css file -->
+    <link rel="stylesheet" href="assets/vendor/aos-master/dist/aos.css">
     <!-- main css -->
     <link rel="stylesheet" href="assets/css/style-sewaVila.css">
 </head>
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ">
         <div class="container pt-3 pb-3 ">
             <a class="navbar-brand" href="#">Sewa Vila Kotabunga</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +50,6 @@
    <div class="jumbotron jumbotron-fluid ">
     <div class="container"> 
         <div class="row">
-            <div class="col-lg-1"></div>
             <div class="col-lg-6">
                 <h1 class="pt-4" >Sewa Vila Angrek kota bunga dengan harga terjangkau</h1>
                 <p class="mt-4 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, culpa id excepturi repellendus illum aperiam atque soluta quia modi optio. <br>
@@ -57,8 +61,8 @@
                 
                 <button class="btn btn-btn-regular">Check Sekarang</button>
             </div>
-            <div class="col-lg-5 text-center  d-none d-sm-block">
-                <img src="assets/img/Component 3 – 3.png" class="img-fluid"  alt="">
+            <div class="col-lg-6 text-center  d-none d-sm-block">
+                <img src="assets/img/figma/hero jumbotron.png" class="img-fluid"  alt="">
             </div>
         </div>
     </div>
@@ -69,9 +73,8 @@
    <section class="about-section">
        <div class="container">
            <div class="row ">
-               <div class="col-lg-1"></div>
                <div class="col-lg-5">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide ml-lg-1 mb-5" data-ride="carousel">
                     <ol class="carousel-indicators">
                       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                       <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -99,14 +102,16 @@
                   </div>
                </div>
                <div class="col-lg-6">
-                        <h2>
-                           <strong>Vila Angrek</strong> <span class="title-about" >Kota bunga</span> 
-                        </h2>
-                        <p class="pt-2" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quod repellendus nostrum, nam a sequi sint quas facere illum eum labore voluptatem nesciunt neque quam odio ratione sit dolorum. A, iste? Eligendi quod, sed quaerat doloribus aperiam rerum corporis sequi.
-                        </p>
-                        <div>
-                            <button class="btn btn-btn-regular">Cek Fasilitas</button>
-                        </div>
+                   <div class="ml-4" >
+                       <h2 class="pd-sm-5 pd-md-5" >
+                          <strong>Vila Angrek</strong> <span class="title-about" >Kota bunga</span> 
+                       </h2>
+                       <p class="pt-2" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae quod repellendus nostrum, nam a sequi sint quas facere illum eum labore voluptatem nesciunt neque quam odio ratione sit dolorum. A, iste? Eligendi quod, sed quaerat doloribus aperiam rerum corporis sequi.
+                       </p>
+                       <div>
+                           <button class="btn btn-btn-regular">Cek Fasilitas</button>
+                       </div>
+                   </div>
                </div>
            </div>
        </div>
@@ -118,31 +123,53 @@
     <div class="container">
         <div class="row  mb-2">
            <div class="col text-center">
-               <h2>Gallery Kami</h2>
+               <h2><strong> Gallery Kami </strong></h2>
                <p>ini adalah beberapa gallery dari vila yang kami sewakan</p>
            </div>
            
         </div>
         <div class="row">
-            <div class="col-lg-3 mb-2">
-                <div class="card" >
-                    <img class="card-img-top img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
-                  </div>
+            <div class="owl-carousel">
+                <div class="col-lg-12 item mb-2">
+                    <div>
+                        <img class=" img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-12 item mb-2">
+                    <div>
+                        <img class=" img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-12 item mb-2">
+                    <div>
+                        <img class=" img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-12 item mb-2">
+                    <div>
+                        <img class=" img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
+                    </div>
+                </div>
+                <div class="col-lg-12 item mb-2">
+                    <div>
+                        <img class=" img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-3 mb-2">
-                <div class="card" >
-                    <img class="card-img-top img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
-                  </div>
-            </div>
-            <div class="col-lg-3 mb-2">
-                <div class="card" >
-                    <img class="card-img-top img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
-                  </div>
-            </div>
-            <div class="col-lg-3 mb-2">
-                <div class="card" >
-                    <img class="card-img-top img-fluid" src="assets/img/about/workingspace1.png" alt="Card image cap">
-                  </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 pembungkus-panah">
+                <div class="panah btn-prev owl-prev">
+                    <button> 
+                        <i class="fas fa-arrow-circle-left  "></i>
+                    </button>
+                </div>
+                <div class="panah kanan btn-next owl-next">
+                    <button>
+                        <i class="fas fa-arrow-circle-right "></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -159,43 +186,39 @@
                </div>
                <div class="col-lg-7">
                    <div class="row mb-sm-4">
-                       <div class="col-lg-4 text-center">
+                       <div class="col-lg-4  col-6 mb-3 text-center">
                         <i class="fas mb-1 fa-wifi"></i>
                            <h4>Wifi</h4>
                        </div>
-                       <div class="col-lg-4 text-center">
+                       <div class="col-lg-4  col-6 mb-3 text-center">
                         <i class="fas mb-1 fa-door-open"></i>
                         <h4>2 Kamar</h4>
                     </div>
-                    <div class="col-lg-4 text-center">
+                    <div class="col-lg-4  col-6 mb-3 text-center">
                         <i class="fas mb-1 fa-toilet"></i>
                            <h4>1 Toilet</h4>
                        </div>
-                   </div>
-                   <div class="row mb-sm-4">
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                         <i class="fas fa-fire"></i>
                             <h4>Free Gas</h4>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                             <i class="fas fa-box"></i>
                             <h4>Lemari es</h4>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                             <i class="fas fa-tv"></i>
                         <h4>Tv</h4>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                         <i class="fas fa-fire"></i>
                             <h4>Free Gas</h4>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                             <i class="fas fa-box"></i>
                             <h4>Lemari es</h4>
                         </div>
-                        <div class="col-lg-4 text-center">
+                        <div class="col-lg-4  col-6 mb-3 text-center">
                             <i class="fas fa-tv"></i>
                         <h4>Tv</h4>
                         </div>
@@ -216,13 +239,28 @@
                        Kontak Kami
                    </h2>
                    <p>
-                       Tunggu apalagi kontak kami sekarang juga!
+                       untuk info lebih lanjut kontak kami untuk penyewaan vila anda
                    </p>
                </div>
            </div>
-           <div class="row">
-               <div class="col">
-                   <img src="assets/img/about/workingspace1.png" height="100" class="img-fluid rounded-circle" alt="">
+           <div class="container">
+               <div class="row ">
+                   <div class="col d-flex justify-content-center ">
+                       <div class="pp-contact">
+                        <img class="rounded-circle" src="assets/img/profil-section/profil-img.png" alt="Generic placeholder image">
+                       </div>
+                      
+                   </div>
+                 
+               </div>
+           </div>
+           <div class="container">
+               <div class="row mt-3">
+                   <div class="col text-center">
+                    <h3><strong>Hidayat</strong></h3>
+                    <p>Pemesanan Vila minimal 2 hari sebelum hari yang dipilih, kontak kami untuk ketersediaan vila</p>
+                    <a href="" class="btn btn-lg btn-success"> Chat sekarang</a>
+                   </div>
                </div>
            </div>
        </div>
@@ -243,10 +281,25 @@
 
     <!-- jquery -->
     <script src="assets/js/jquery-3.4.1.min.js" ></script>
-     <!-- bootstrap js -->
-     <script src="assets/js/bootstrap.min.js" ></script>
-      <!-- main js -->
-    <script src="assets/js/main.js" ></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js" ></script>
+    <!-- owl carousel plugin -->
+    <script src="assets/vendor/owl/owl.carousel.js"></script>
+    <!-- fontawesome js file -->
+    <script src="assets/js/all.js"></script>
+    <!-- isotope plugin -->
+    <script src="assets/vendor/isotope/isotope.min.js"></script>
+    <!-- magniticpopup -->
+    <script src="assets/vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
+    <!-- aos js file -->
+    <script src="assets/vendor/aos-master/dist/aos.js"></script>
+    <!-- aos init -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- javascript file -->
+    <script src="assets/js/main.js"></script>
    
 
 </body>

@@ -35,9 +35,16 @@ nav .nav-item .active {
   background-color: #f6f7fb;
   height: auto;
   overflow: auto;
+  margin-top: 80px;
 }
+
 .jumbotron h1 {
   font-weight: 600;
+}
+
+.jumbotron img {
+  height: 480px;
+  width: 100%;
 }
 
 /* about */
@@ -54,6 +61,76 @@ nav .nav-item .active {
   border-radius: 5px;
 }
 
+.gallery-section .owl-carousel .card {
+  margin-top: 10%;
+  /* height: 350px; */
+  height: auto;
+  padding: 30px;
+  line-height: 25px;
+  font-family: var(--paytone);
+}
+.gallery-section .owl-carousel img {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-section .container .row .pembungkus-panah {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gallery-section .container .row .panah {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative !important;
+  border: 3px solid transparent;
+  transition: background 0.6s ease;
+}
+
+.gallery-section .container .row .panah button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.gallery-section .container .row .pana:hover {
+  background-color: var(--primary-color);
+
+  color: var(--primary-color);
+}
+
+.gallery-section .pembungkus-panah .fa-arrow-circle-right {
+  font-size: 54px;
+  color: var(--primary-color);
+  background-color: var(--prmary-color3);
+  border-radius: 100%;
+  position: relative;
+}
+
+.gallery-section .pembungkus-panah .fa-arrow-circle-right:hover {
+  color: var(--primary-color3);
+  background-color: var(--primary-color);
+}
+
+.gallery-section .pembungkus-panah .fa-arrow-circle-left {
+  font-size: 54px;
+  color: var(--primary-color);
+  background-color: var(--prmary-color3);
+  border-radius: 100%;
+  position: relative;
+}
+
+.gallery-section .pembungkus-panah .fa-arrow-circle-left:hover {
+  color: var(--primary-color3);
+  background-color: var(--primary-color);
+}
+
 /* section fasilitas */
 
 .fasilitas-section .fa-wifi {
@@ -66,4 +143,20 @@ nav .nav-item .active {
 .fasilitas-section .fa-box,
 .fasilitas-section .fa-tv {
   font-size: 30px;
+}
+
+/* contact */
+.contact-section .row .pp-contact {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: darkslategray;
+}
+
+.contact-section .row img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
 }
