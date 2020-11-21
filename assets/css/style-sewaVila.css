@@ -6,7 +6,7 @@
 @import url("partials/global.css");
 
 body {
-  font: normal 15px/30px cursive;
+  font: normal 15px/30px var(--raleway);
   /* background-color: #eaeaea; */
   background-color: #f6f7fb;
 }
