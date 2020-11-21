@@ -48,12 +48,27 @@ nav .nav-item .active {
 }
 
 /* about */
+.about-section .carousel {
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #bcbcbc;
+}
 .about-section .title-about {
   background-color: #f3b5c4;
   padding: 8px 13px;
   border-radius: 5px;
+  overflow: hidden;
 }
 
+.about-section .carousel-item {
+  height: auto;
+  background-color: darkslategray;
+}
+
+.about-section .carousel-item img {
+  /* object-fit: cover; */
+  /* object-position: center; */
+}
 /* gallery */
 .gallery-section .title-gallery {
   background-color: #f3b5c4;
@@ -72,6 +87,7 @@ nav .nav-item .active {
 .gallery-section .owl-carousel img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .gallery-section .container .row .pembungkus-panah {
