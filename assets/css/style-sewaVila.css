@@ -176,3 +176,9 @@ nav .nav-item .active {
   border-radius: 50%;
   overflow: hidden;
 }
+
+/* footer */
+footer .container .row .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
